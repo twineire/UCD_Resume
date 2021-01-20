@@ -20,7 +20,7 @@
 .ui-menu-color-download {
     background-color: #525252;
 }
-/* -----------------------------------------Special paddins/margins/text*/
+/* -----------------------------------------Special paddins/margins/text */
 
 h1,
 h2,
@@ -34,7 +34,7 @@ h4 {
 }
 
 .general-sub {
-    font-family: "Exo" , sans-serif;
+    font-family: "Exo", sans-serif;
     font-weight: 300;
     color: #fafafa;
 
@@ -44,18 +44,18 @@ h4 {
     display: inline-block;
 }
 
-/* -----------------------------------------Heading   */
+/* -----------------------------------------Heading*/
 header {
     margin: 0;
 }
 
 .heading {
-    margin: 0
+    margin-left: 50px;
 
 }
 
 .logo {
-    background: url(../images/rosie.jpg);
+    background: url("../images/rosie.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -74,7 +74,7 @@ header {
 }
 
 .title {
-    font-family: Roboto , sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 200;
     font-size: 28px;
     margin-top: 20px;
@@ -90,14 +90,13 @@ header {
     font-size: 0;
 }
 
-#nav {
-    margin: 0;
-}
-
 #nav li {
     font-size: 14px;
     padding: 0;
+}
 
+#nav {
+    margin: 0;
 }
 
 .menuitem {
@@ -132,14 +131,18 @@ header {
     letter-spacing: 2px;
 }
 
-/* -----------------------------------------Hover.css   */
+/* -----------------------------------------Hover.css*/
+
+
 .hvr-sweep-to-bottom:before {
-    background-color: rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.2);
     height: 120px;
 
 
 }
-/* -----------------------------------------footer   */
+/* -----------------------------------------footer*/
+
+
 footer {
     background-color: #525252;
     color: #fafafa;
@@ -153,15 +156,16 @@ footer {
     color: #fafafa;
     text-align: center;
     padding-left: 5px;
-    transition: all .035 ease-in-out;
-    -moz-transition: all .035 ease-in-out;
-    -webkit-transition: all .035 ease-in-out;
-    -o-transition: all .035 ease-in-out;
+    transition: all .035s ease-in-out;
+    -moz-transition: all .035s ease-in-out;
+    -webkit-transition: all .035s ease-in-out;
+    -o-transition: all .035s ease-in-out;
 }
 
 .cv-pdf i:hover {
     color: #e84610;
 }
+
 .social-links {
     padding-bottom: 15px;
 }
@@ -169,21 +173,21 @@ footer {
 .social-links li a i {
     width: 32px;
     height: 32px;
-    padding: 12px;
+    padding: 12px 0;
     border-radius: 50%;
     font-size: 13px;
     line-height: 7px;
     text-align: center;
     color: #fafafa;
     background: #8f8f8f;
-    transition: all .035 ease-in-out;
-    -moz-transition: all .035 ease-in-out;
-    -webkit-transition: all .035 ease-in-out;
-    -o-transition: all .035 ease-in-out;
+    transition: all .035s ease-in-out;
+    -moz-transition: all .035s ease-in-out;
+    -webkit-transition: all .035s ease-in-out;
+    -o-transition: all .035s ease-in-out;
 }
 .social-links li a i:hover {
-    background-color: #e84610;
+    background: #e84610;
 }
-.footer-details {
+#footer-details {
     padding: 20px;
 }
