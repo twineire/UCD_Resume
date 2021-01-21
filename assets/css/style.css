@@ -7,7 +7,10 @@
 
 .bg-color-three-reasons {
     background-color: #fff;
+}
 
+.bg-color-personal-info {
+    background-color: #f4f4f4;
 }
 
 .ui-menu-color-home {
@@ -25,6 +28,24 @@
 .ui-menu-color-download {
     background-color: #525252;
 }
+
+.row-table {
+    display: table;
+}
+
+.section-column {
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
+
+.section-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
 /* -----------------------------------------Special paddins/margins/text */
 
 h1,
@@ -63,8 +84,8 @@ h4 {
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 40px;
-    
 }
+
 
 /* -----------------------------------------Heading*/
 header {
@@ -162,7 +183,7 @@ header {
 
 
 }
-/* -----------------------------------------footer*/
+/* -----------------------------------------Footer*/
 
 
 footer {
@@ -178,10 +199,10 @@ footer {
     color: #fafafa;
     text-align: center;
     padding-left: 5px;
-    transition: all .035s ease-in-out;
-    -moz-transition: all .035s ease-in-out;
-    -webkit-transition: all .035s ease-in-out;
-    -o-transition: all .035s ease-in-out;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
 
 .cv-pdf i:hover {
@@ -202,10 +223,10 @@ footer {
     text-align: center;
     color: #fafafa;
     background: #8f8f8f;
-    transition: all .035s ease-in-out;
-    -moz-transition: all .035s ease-in-out;
-    -webkit-transition: all .035s ease-in-out;
-    -o-transition: all .035s ease-in-out;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
 .social-links li a i:hover {
     background: #e84610;
