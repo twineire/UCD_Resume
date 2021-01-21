@@ -9,9 +9,6 @@
     background-color: #fff;
 }
 
-.bg-color-personal-info {
-    background-color: #f4f4f4;
-}
 
 .ui-menu-color-home {
     background-color: #e67e22;
@@ -46,7 +43,7 @@
     margin-bottom: 40px;
 }
 
-/* -----------------------------------------Special paddins/margins/text */
+/* -----------------------------------------Special paddings/margins/text */
 
 h1,
 h2,
@@ -63,7 +60,6 @@ h4 {
     font-family: "Exo", sans-serif;
     font-weight: 300;
     color: #fafafa;
-
 }
 
 .inline-block {
@@ -88,13 +84,13 @@ h4 {
 
 
 /* -----------------------------------------Heading*/
+
 header {
     margin: 0;
 }
 
 .heading {
     margin-left: 50px;
-
 }
 
 .logo {
@@ -176,15 +172,11 @@ header {
 
 /* -----------------------------------------Hover.css*/
 
-
 .hvr-sweep-to-bottom:before {
     background: rgba(0, 0, 0, 0.2);
     height: 120px;
-
-
 }
 /* -----------------------------------------Footer*/
-
 
 footer {
     background-color: #525252;
@@ -233,4 +225,14 @@ footer {
 }
 #footer-details {
     padding: 20px;
+}
+/*-----------------------------------Three Reasons*/
+
+.three-reasons-icon {
+    font-size: 26px;
+    color: #e67e22;
+}
+
+.three-reasons-heading {
+    margin-bottom: 15px;
 }
